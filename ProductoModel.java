@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 
 @Entity
 @Data
-@Table(name = "Pedido")
+@Table(name = "productos")
 @NoArgsConstructor
 @AllArgsConstructor
 public class ProductoModel {
