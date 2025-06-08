@@ -18,7 +18,7 @@ import com.example.NoLimits.Multimedia.model.EstadoDeVenta;
 import com.example.NoLimits.Multimedia.service.EstadoDeVentaService;
 
 @Controller
-@RequestMapping
+@RequestMapping("/api/v1/estadoDeVentas")
 public class EstdoDeVentasController {
 
     @Autowired
